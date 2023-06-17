@@ -34,7 +34,7 @@ This project was designed & built using these technologies.
 - Figma
 - Netlify
 
-## Features 
+## Features Available
 
 **📖 Multi-Page Layout**
 
