@@ -10,7 +10,7 @@ function Type() {
           "Electrical & Electronics Engineer",
           "UX-UI Designer",
           "Open Source Contributor",
-          "Embedded Designer",
+          "Embedded Coder",
         ],
         autoStart: true,
         loop: true,
