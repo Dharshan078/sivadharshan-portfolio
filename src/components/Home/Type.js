@@ -1,6 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
+
 function Type() {
   return (
     <Typewriter
@@ -9,12 +10,12 @@ function Type() {
           "Front-End Web Developer",
           "Electrical & Electronics Engineer",
           "UX-UI Designer",
-          "Open Source Contributor",
+          "Content Creator",
           "Embedded Coder",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 80,
       }}
     />
   );
