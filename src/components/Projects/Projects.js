@@ -90,6 +90,15 @@ function Projects() {
             />
           </Col>
 
+        <h1 className="project-heading">
+        My works for <strong className="purple">Social Good </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          You can get my E-Book for free by contacting me in either Instagram or Gmail
+        </p>
+        
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}></Row>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Amazon}
