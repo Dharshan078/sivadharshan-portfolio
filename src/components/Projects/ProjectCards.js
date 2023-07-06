@@ -3,7 +3,9 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite, } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-import {FiFigma} from "react-icons/fi"
+import {FiFigma} from "react-icons/fi";
+import {FaAmazon, FaInstagram} from "react-icons/fa";
+
 
 function ProjectCards(props) {
   return (
@@ -28,19 +30,7 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-        {props.figma && !props.demoLink &&(
-          //This will generate only figma button if figma is present and it should'nt have demo link
-          <Button
-          variant="primary"
-          href={props.figma}
-          target="_blank"
-          style={{ marginLeft: "10px" }}
-        >
-          <FiFigma /> &nbsp;
-          {"Figma"}
-        </Button>
-        )
-        }
+        
 
         {props.figma && props.demoLink && (
           //This will generate figma and demo link button if figma and demoLink is present
@@ -66,11 +56,11 @@ function ProjectCards(props) {
           </>
         )}
  
-        {!props.figma && !props.ghLink && (
-          //This will generate only project report button if figma and gh link lis not present
+        {!props.figma && !props.ghLink && !props.amazon && !props.insta &&(
+          //This will generate only project report button if figma, amazon and gh link does not present
           <Button
           variant="primary"
-          href={props.demoLink}
+          href={props.PLink}
           target="_blank"
           style={{ marginLeft: "10px" }}
         >
@@ -79,6 +69,47 @@ function ProjectCards(props) {
         </Button>
         )}
 
+        {props.amazon && !props.demoLink &&(
+          //This will generate only amazon button if amazon is present and it should'nt have demo link
+          <Button
+          variant="primary"
+          href={props.amazon}
+          target="_blank"
+          style={{ marginLeft: "10px" }}
+        >
+          <FaAmazon /> &nbsp;
+          {"Amazon"}
+        </Button>
+        )
+        } 
+
+        {props.insta && !props.demoLink &&(
+          //This will generate only Insta button if Insta is present and it should'nt have demo link
+          <Button
+          variant="primary"
+          href={props.insta}
+          target="_blank"
+          style={{ marginLeft: "10px" }}
+        >
+          <FaInstagram /> &nbsp;
+          {"Instagram"}
+        </Button>
+        )
+        }
+
+        {props.figma && !props.demoLink &&(
+          //This will generate only figma button if figma is present and it should'nt have demo link
+          <Button
+          variant="primary"
+          href={props.figma}
+          target="_blank"
+          style={{ marginLeft: "10px" }}
+        >
+          <FiFigma /> &nbsp;
+          {"Figma"}
+        </Button>
+        )
+        }
 
         
       </Card.Body>
