@@ -103,7 +103,7 @@ function ProjectCards(props) {
           variant="primary"
           href={props.figma}
           target="_blank"
-          style={{ marginLeft: "10px" }}
+          style={{ marginLeft: "10px", bottom: "1px"}}
         >
           <FiFigma /> &nbsp;
           {"Figma"}
