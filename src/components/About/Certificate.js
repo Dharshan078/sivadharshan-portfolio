@@ -85,7 +85,7 @@ function Projects() {
               description5="→Git"
               description6="→SASS"
               
-              cert="https://1drv.ms/f/s!AmRJSrMufHupiPp7jNgOQI3JGQdKXA?e=RtecOd"
+              cert="https://1drv.ms/i/s!AmRJSrMufHuplJcoxET1tK-iawSWgA?e=5sAJSg"
             />
           </Col>
 
