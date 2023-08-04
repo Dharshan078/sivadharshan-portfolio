@@ -100,7 +100,7 @@ function Projects() {
               description5="→Strucured Query Language"
               description6="→HTML, CSS, and JavaScript"
               description7="→Flask"
-              cert="https://1drv.ms/f/s!AmRJSrMufHupiPp7jNgOQI3JGQdKXA?e=RtecOd"
+              cert="https://cs50.harvard.edu/certificates/1cb1a18f-a6f1-41b3-9026-e1337e11b585"
             />
           </Col>
 
