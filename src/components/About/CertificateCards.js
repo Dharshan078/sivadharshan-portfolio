@@ -48,7 +48,7 @@ function CertificateCards(props) {
           //This will generate only github button if ghLink is only present
           <Button variant="primary" href={props.cert} target="_blank">
           <TbCertificate /> &nbsp;
-          {props.isDemo ? "Blog" : "Verify"}
+          {props.isDemo ? "Blog" : "View"}
         </Button>
         )
         }
