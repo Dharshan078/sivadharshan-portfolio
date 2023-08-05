@@ -7,7 +7,7 @@ import { TbCertificate } from "react-icons/tb";
 function CertificateCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img variant="" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Title>{props.course}</Card.Title>
@@ -46,7 +46,7 @@ function CertificateCards(props) {
         
         {props.cert && (
           //This will generate only github button if ghLink is only present
-          <Button variant="primary" href={props.cert} target="_blank">
+          <Button variant="primary" href={props.cert} target="_blank" >
           <TbCertificate /> &nbsp;
           {props.isDemo ? "Blog" : "View"}
         </Button>
