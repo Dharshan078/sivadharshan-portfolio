@@ -63,6 +63,7 @@ function Projects() {
               title="D University"
               description="D University is a UX-UI Design for Mobile app designed using Figma, The objective is to design this app to track the student works, Daily Schedule, Their grades, Exam Schedule, Canteen Food Items, Transportation News and much more."
               figma="https://www.figma.com/file/5YFjoBGvhCAW7jUAuxvk6N/D-University?type=design&node-id=0%3A1&t=uWlfer7QAO1FWjPP-1"
+              demoLink="https://sivadharshan980.wixsite.com/dharshan-uxportfolio/copy-of-bi-2"
             />
           </Col>
 
