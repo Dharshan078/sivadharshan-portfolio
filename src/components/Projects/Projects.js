@@ -10,6 +10,7 @@ import DU from "../../Assets/Projects/Duni.png";
 import BLDC from "../../Assets/Projects/BLDC.png";
 import Amazon from "../../Assets/Projects/amazon.png";
 import Dharshcodes from "../../Assets/Projects/dharshcodes.png";
+import ZETA from "../../Assets/Projects/ZETA.png"
 
 function Projects() {
   return (
@@ -75,6 +76,17 @@ function Projects() {
               description="Jobs Here is multi platform website UX-UI Design designed using Figma, The objective of this design is to design a platform for searching and applying for Remote, Part-Time, Full-Time Jobs and Social Media."
               figma="https://www.figma.com/file/UYN5pGqVIzebzgqWiLnMHP/jobshere.web?type=design&node-id=0%3A1&t=8ch8EoT95DOTBWoj-1"
               demoLink="https://sivadharshan980.wixsite.com/dharshan-uxportfolio/copy-of-bi"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ZETA}
+              isBlog={false}
+              title="A Novel ZETA Converter based on Coat Circuit"
+              description="A Novel ZETA Converter based on Coat circuit for BLDC Motor to improve the effeciency for Renewable energy and to 
+              reduce motor torque ripple"
+              PLink="https://drive.google.com/drive/folders/1eToPMoV85eGz-zoxfE97hgEYIyGXDMWQ?usp=sharing"     
             />
           </Col>
 
